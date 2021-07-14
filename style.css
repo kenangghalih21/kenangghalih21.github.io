@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+
+	background-color: gray;
+
+}
+
+.navbar {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	background: rgba(0,0,0,0.6) !important;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+	color: #fff;
+	
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+
+
+#bgimg{
+
+	
+	width:100%;
+	height: 100vh
+
+}
+
+.offset:before{
+	display: block;
+	content: "";
+	height: 3.5rem
+}
+/*----HEADING SECTION-----*/
+.heading-content{
+
+	top: 30%;
+	width: 100%;
+	position: absolute;
+
+}
+
+.heading-content h5 {
+
+	font-size: 3em;
+	font-weight: 300;
+	color: gray;
+}
+
+.heading-content h1 {
+
+	font-size: 4em;
+	font-weight: bolder;
+	color: gray;
+}
+.heading-content p {
+
+	font-size: 1.5rem;
+	color: gray;
+
+}
+#heading{
+	font-family: 'Poppins', sans-serif;
+}
+/*-------About Me Section----------*/
+#aboutcontent p{
+	font-size: 1.5rem
+}
+#about{
+	font-family: 'Poppins', sans-serif;
+}
+/*---------My Project Section------*/
+.projtext{
+
+	margin-top: 1.75rem;
+	margin-bottom: 1.75rem;
+}
+#myproject{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*-------Tools Section----------*/
+#tools_logo > img {
+
+  width: 70px;
+
+}
+#tools{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*--------Contact Section-----------*/
+#fblink {
+
+  width: 35px;
+}
+
+#linkedinlink {
+
+  width: 45px;
+}
+#contact{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*------FOOTER----------*/
+#footer{
+	background-color: black;
+	padding:2.5rem 0;
+	font-family: 'Poppins', sans-serif;
+}
+#footer p {
+	color: white;
+}
