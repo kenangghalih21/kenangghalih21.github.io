@@ -1,4 +1,4 @@
-const txtElement = ['Kenang Ghalih Diasthama']; //nilai const ga berubah, kalo let berubah
+const txtElement = ['Kenang Ghalih']; //nilai const ga berubah, kalo let berubah
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
@@ -18,6 +18,6 @@ let words = '';
   count++;
   txtIndex = 0;
  }
- setTimeout(ngetik, 200);
+ setTimeout(ngetik, 600);
 
 })();
