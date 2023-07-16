@@ -18,6 +18,6 @@ let words = '';
   count++;
   txtIndex = 0;
  }
- setTimeout(ngetik, 600);
+ setTimeout(ngetik, 300);
 
 })();
